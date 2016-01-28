@@ -2,9 +2,9 @@
 
 ## Guidelines
 
+- You should be able to finish this self assessment in about an hour.
 - Self-assessments are meant to give you an idea of how well you understand--or can figure out--the material that you covered recently.
-- You **must** submit a pull request for all self-assessments (guidelines below). Give yourself a few minutes to do this at the end of the time allotted for the assessment.
-- The help button is available to you during self-assessments, how often you use that service is up to your own discretion.
+
 - What you see is what you get--most of the time we don't include outside libraries.
 - TIP: Don't take too much time writing tests that are not required, instead use your Chrome Console for a quick and easy way to test your code.
 
@@ -29,6 +29,11 @@ Mostly complete      | Your solution is well on its way to being complete, but y
 Significant progress | You have the right idea and were heading in a good direction. Covers everything between Mostly Complete and Attempted.
 Attempted            | You were very challenged by the prompt and had trouble making any significant progress on the problem, but wrote at least one meaningful line of code that appears to be a genuine attempt.
 Not attempted        | Whether you've thought much about the problem or not, you have no lines of code to show for the problem. (Note, you should avoid ever getting into a situation where this is the grade you'd give yourself. Make a passing attempt at each problem before going back to complete any one problem.)
+
+Approaching Algorithms: COMPLETE
+Debugging Practices:  ATTEMPTED
+Prime Numbers: NOT ATTEMPTED
+Sum Array:  COMPLETE
 
 ### Starting every problem
 
