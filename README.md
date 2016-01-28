@@ -1,4 +1,4 @@
-# Precourse 01 Self-Assessment
+# Prep+ Week 2 Self-Assessment
 
 ## Guidelines
 
