@@ -16,13 +16,17 @@ var returnFizzBuzz = fizzBuzz(15);
 
 
 var fizzBuzz = function(num){
-	if (num % 3 === 0) {
-		return 'fizz';
+	if (num % 5 === 0 && num % 3 === 0) {
+		return 'fizzBuzz';
 	} else if (num % 5 === 0) {
 		return 'buzz';
-	} else if (num % 5 === 0 || num % 3 === 0) {
-		return 'fizzBuzz';
+	} else if (num % 3 === 0) {
+		return 'fizz';
 	}
 };
+
+var returnFizz = fizzBuzz(3);
+var returnBuzz = fizzBuzz(5);
+var returnFizzBuzz = fizzBuzz(15);
 
 
