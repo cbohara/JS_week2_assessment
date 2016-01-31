@@ -23,6 +23,11 @@ var sumArray = function(arr){
 /*
 
 *EXTRA* build an 'add' function that takes two numbers as parameters and adds them together. Replace your add functionality inside of sumArray with your new 'add' function.
-
 */
+
+//add function takes two numbers as parameters and adds them together
+var add = function(num1,num2){
+	return num1 + num2;
+}
+
 

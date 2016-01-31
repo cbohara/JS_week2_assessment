@@ -33,13 +33,12 @@ var isPrime = function(value){
 	for (var i = 2; i < value; i++){
 		//if the input value can be divided by another value and have a remainder of zero, then it is not a prime number
 		if(value % i === 0){	
-			
 			return false;
 		}
 	}
 	//a prime number must be a whole non-negative number
 	if(value <= 1){
-		return 'Prime numbers must be whole non-negative numbers'
+		return 'Prime numbers must be whole non-negative numbers';
 	}
 	//if the input value can only be evenly divided by itself and 1, then it is a prime number
 	else{
@@ -54,8 +53,25 @@ var primeArray = [7, 14, 27, 671];
 
 var nonPrimeArray = [9, 15, 20]
 
-isPrimeArray(primeArray); ---> [7, 671];
+isPrimeArray(primeArray); ---> [7];
 isPrimeArray(nonPrimeArray) ---> 'there are no primes';
 
 */
+
+var isPrimeArray = function(array){
+	//initialize array that will hold prime numbers from input array
+	var resultsArray = [];
+	//loop through input array
+	for(var i = 0; i < array.length; i++){
+		//use isPrime function to determine if given value in array is prime
+		//if prime, collect the number and return in results array
+		if(isPrime(array[i])){
+			resultsArray.push(array[i]);
+		}
+	}
+	return resultsArray;
+};
+
+
+
 
